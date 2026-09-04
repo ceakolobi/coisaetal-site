@@ -33,15 +33,15 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
     <header className="sticky top-0 z-40 bg-[#FBF8F2]/95 backdrop-blur-md border-b border-[#E8DED1] shadow-xs transition-all">
       <div className="bg-[#1E3A2F] text-[#FBF8F2] text-xs py-1.5 px-4 text-center">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <p className="w-full text-center sm:text-left text-[11px] sm:text-xs tracking-wide flex items-center justify-center sm:justify-start gap-1.5 font-medium">
+          <p className="w-full sm:w-auto min-w-0 text-center sm:text-left text-[11px] sm:text-xs tracking-wide flex items-center justify-center sm:justify-start gap-1.5 font-medium">
             <span className="hidden sm:inline">✦</span>
             <span>Tudo para o seu lar, com amor e bom gosto.</span>
             <span className="font-cursive text-sm text-[#F5A97F] ml-1">♥</span>
           </p>
           <a href={headerWhatsappLink} target="_blank" rel="noopener noreferrer"
-            className="hidden sm:flex items-center gap-1.5 text-xs text-[#E8DED1] hover:text-white transition-colors font-medium">
-            <Phone className="w-3 h-3 text-[#25D366]" />
-            <span>WhatsApp: {BRAND.whatsappDisplay}</span>
+            className="hidden sm:flex shrink-0 items-center gap-1.5 text-xs text-[#E8DED1] hover:text-white transition-colors font-medium whitespace-nowrap">
+            <Phone className="w-3 h-3 shrink-0 text-[#25D366]" />
+            <span className="whitespace-nowrap">WhatsApp: {BRAND.whatsappDisplay}</span>
           </a>
         </div>
       </div>
