@@ -12,8 +12,8 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({ className = '', variant = 
   const isCompact = variant === 'compact';
 
   const sizeClass = isCompact
-    ? 'h-9 sm:h-10'
-    : 'h-14 sm:h-16 transition-transform duration-300 group-hover:scale-105';
+    ? 'h-11 sm:h-12'
+    : 'h-16 sm:h-20 transition-transform duration-300 group-hover:scale-105';
 
   return (
     <div
