@@ -1,11 +1,11 @@
 import { TipArticle } from '../types';
 
 const IMG = {
-  cozinha: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800',
-  banho: 'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800',
-  decoracao: 'https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=800',
-  camaCasa: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800',
-  hero: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800',
+  cozinha: 'https://picsum.photos/seed/coisaetal-cozinha/800/600',
+  banho: 'https://picsum.photos/seed/coisaetal-banho/800/600',
+  decoracao: 'https://picsum.photos/seed/coisaetal-deco/800/600',
+  camaCasa: 'https://picsum.photos/seed/coisaetal-cama/800/600',
+  hero: 'https://picsum.photos/seed/coisaetal-hero/1200/700',
 };
 
 export const TIPS_ARTICLES: TipArticle[] = [
