@@ -33,3 +33,7 @@ dist-ssr/
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Scripts locais com credenciais — nunca commitar
+*.ps1
+logo.b64
