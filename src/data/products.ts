@@ -1,13 +1,13 @@
 import { Product } from '../types';
 
 const IMG = {
-  airFryerRosa: 'https://images.unsplash.com/photo-1648744595745-c9cf8f73ef60?w=800&q=80',
-  airFryerVerde: 'https://images.unsplash.com/photo-1648744595745-c9cf8f73ef60?w=800&q=80&sat=-100&hue=120',
-  airFryerPreta: 'https://images.unsplash.com/photo-1648744595745-c9cf8f73ef60?w=800&q=80&sat=-100',
-  cozinha: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80',
-  banho: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80',
-  decoracao: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80',
-  camaCasa: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80',
+  airFryerRosa: 'https://images.pexels.com/photos/4397921/pexels-photo-4397921.jpeg?auto=compress&cs=tinysrgb&w=800',
+  airFryerVerde: 'https://images.pexels.com/photos/4397921/pexels-photo-4397921.jpeg?auto=compress&cs=tinysrgb&w=800',
+  airFryerPreta: 'https://images.pexels.com/photos/4397921/pexels-photo-4397921.jpeg?auto=compress&cs=tinysrgb&w=800',
+  cozinha: 'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800',
+  banho: 'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800',
+  decoracao: 'https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=800',
+  camaCasa: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800',
 };
 
 export const PRODUCTS: Product[] = [

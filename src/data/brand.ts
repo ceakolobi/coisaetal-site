@@ -13,11 +13,11 @@ export const BRAND = {
   addressPlaceholder: '[INSERIR ENDEREÇO]',
   socialInstagramPlaceholder: '@coisaetal.lar',
   images: {
-    hero: 'https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=1200&q=80',
-    cozinha: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80',
-    banho: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80',
-    decoracao: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80',
-    camaCasa: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80',
+    hero:      'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    cozinha:   'https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800',
+    banho:     'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800',
+    decoracao: 'https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=800',
+    camaCasa:  'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
 };
 
